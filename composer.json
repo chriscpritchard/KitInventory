@@ -1,0 +1,19 @@
+{
+  "name": "chriscpritchard/MedicalInventoryTracker",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "CC-BY-NC-SA-4.0",
+  "authors": [
+    {
+      "name": "Chris Pritchard",
+      "email": "chris@christopherpritchard.co.uk"
+    }
+  ],
+  "require": {
+    "doctrine/ORM": "2.4.*",
+    "slim/slim": "^3.0"
+  },
+  "autoload": {
+    "psr-0": {"": "src/"}
+  }
+}
